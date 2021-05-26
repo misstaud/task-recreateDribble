@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble Natalia Sign up Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id ="container">
+        <div id="left">
+            <!-- INTRO AND NAV -->
+      <div id="nav">
+            <h2>Create Account</h2>
+            <nav>
+                <a href="#" class="gmail"><img src="img/gmail.png" alt="mail image" class="btn"></a>
+                <a href="#" class="facebook"><img src="img/f-book.png" alt="facebook icon" class="btn"></a>
+                <a href="#" class="twitter"><img src="img/twitter-2.png" alt="twitter icon" class="btn"></a>
+            </nav>
+            <p>or use your email for registraion:</p>
+        </div>
+            
+
+            <!--Form-->
+
+       
+         <div  id="form">
+            <form action="/action_page.php" method="post">
+                <input type="text" placeholder="Name"  class="name">
+                <input type="email" placeholder="Email" class="mail">
+                <input type="password" placeholder="Password" class="password">
+            <section id="middle">
+                <input class="box" type="checkbox" id="terms" value="agree">
+                <label for="terms">I agree to the <a href="#" class="label-a">Terms</a> and <a href="#" class="label-a">Privacy Policy</a>  
+                </label>           
+             </section>
+            </form>
+        </div>
+           
+        
+                <!--Button-->
+         <div id="button">
+             <button type="submit" class="btn-1">Sign Up</button>
+             <button onclick="document.getElementById('loginId').style.display='block'" type="button" class="btn-2">
+                Sign In</button>
+        </div>   
+              
+    </div>
+
+    <div id="right">
+        <img id="right-img" src="img/Screenshot 2021-05-26 at 11.17.52.png" alt="design-pic">
+    </div>
+</div>
+
+                <!-- LOGIN FORM -->
+<div id="loginId" class="modelogin">
+    <span onclick="document.getElementById('loginId').style.display='none'"
+  class="exit" title="Close Page">&times;</span>
+  
+    <!-- Login Content -->
+    <form class="login-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <img src="img/Screenshot 2021-05-26 at 11.17.52.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="logincontainer">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" class="l-info" required>
+  
+        <label for="pswrd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="pswrd" class="l-info" required>
+  
+        <button type="submit" class="loginBtn">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="logincontainer" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('loginId').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="pswrd">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
