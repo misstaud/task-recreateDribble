@@ -34,7 +34,7 @@
 
    /* INTRO AND NAV */
 #nav{
-    padding-top: 40px;
+    padding-top: 30px;
     /* text-align: center; */
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
 #nav p {
     font-size: 1.2em;
     letter-spacing: 0.3px;
-   margin-bottom: 15px;
+   margin-bottom: 10px;
 }
 #nav a {
    padding-left: 30px;
