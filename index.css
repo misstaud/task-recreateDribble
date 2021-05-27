@@ -269,11 +269,12 @@ form input {
   .exit {
     
     position: absolute;
-    right: 250px;
-    center: 0;
+    right: 200px;
+
     color: #000;
     font-size: 50px;
     font-weight: bold;
+    text-align: right;
   }
   
   /* exit button on hover */
