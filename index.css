@@ -269,7 +269,7 @@ form input {
   .exit {
     
     position: absolute;
-    right: 70px;
+    right: 100px;
     background-color: gray;
     color: #000;
     font-size: 50px;
