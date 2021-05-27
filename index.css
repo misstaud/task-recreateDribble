@@ -326,28 +326,4 @@ form input {
       color: crimson;
       padding-right: 10px;
   }
-    /* MEDIA QUERY */
-    @media only screen and (max-width: 600px) {
-      #footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .login-content {
-          margin: 6px auto;
-      }
-       } 
-  
-       @media only screen and (max-width: 600px) {
-          .loginBtn{
-            width: 100%;
-            
-           }     
-        }
-  
-
-
-
     
-  
-            /*  MEDIA QUERY */
