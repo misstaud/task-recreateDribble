@@ -219,8 +219,8 @@ form input {
     height: 100%; 
     overflow:hidden; 
     background-color: transparent; 
-    margin:60px auto;
-    padding-bottom: 60px;
+    margin:70px auto;
+   
   }
   
   /* Login content */
@@ -233,7 +233,7 @@ form input {
     
   }
   .logincontainer {
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
   }
   
