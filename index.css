@@ -69,7 +69,7 @@ nav{
 form {
     display: flex;
     flex-direction: column;
-    margin-bottom:30px;
+    margin-bottom:25px;
 }
 
 form input {
