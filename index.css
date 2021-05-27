@@ -13,7 +13,8 @@
 #container {
     display: flex;
     flex-direction: row;
-    height: 90vh;
+    height: 100vh;
+    overflow: hidden;
     
 }
 
@@ -87,7 +88,7 @@ form input {
 #middle a{
     color: rgb(185, 70, 70);
 }
-     /* TERMS HOVER */
+     /* TERMS link HOVER */
  #middle a:hover{
        opacity: 0.8;
        font-weight: bolder;
@@ -138,7 +139,7 @@ form input {
 
 #right{
     width: 45%;
-    height: 100vh;
+    
 }
 
 #right-img{
