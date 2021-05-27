@@ -220,6 +220,7 @@ form input {
     overflow:hidden; 
     background-color: transparent; 
     margin:60px auto;
+    padding-bottom: 60px;
   }
   
   /* Login content */
