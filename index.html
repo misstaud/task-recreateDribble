@@ -14,11 +14,16 @@
       <div id="nav">
             <h2>Create Account</h2>
             <nav>
-                <a href="#" class="gmail"><img src="img/gmail.png" alt="mail image" class="btn"></a>
-                <a href="#" class="facebook"><img src="img/f-book.png" alt="facebook icon" class="btn"></a>
-                <a href="#" class="twitter"><img src="img/twitter-2.png" alt="twitter icon" class="btn"></a>
+              <div class="img-nav">
+             <a href="#" class="gmail"><img src="img/G-ICON.png" alt="mail image" class="btn"></a>
+              <a href="#" class="facebook" ><img src="img/new-f.png" alt="facebook icon" class="btn"></a>
+                <a href="#" class="twitter"><img src="img/TW-ICON.png" alt="twitter icon" class="btn"></a> 
+                <a href="#" class="twitter"><img src="img/TW-ICON.png" alt="twitter icon" class="btn"></a>
+
+              </div>
+                
             </nav>
-            <p>or use your email for registraion:</p>
+            <p>or use your email for registration:</p>
         </div>
             
 
@@ -31,9 +36,14 @@
                 <input type="email" placeholder="Email" class="mail">
                 <input type="password" placeholder="Password" class="password">
             <section id="middle">
-                <input class="box" type="checkbox" id="terms" value="agree">
-                <label for="terms">I agree to the <a href="#" class="label-a">Terms</a> and <a href="#" class="label-a">Privacy Policy</a>  
-                </label>           
+                 
+                <label class="labelcontainer" id="box" for="terms">
+                 <input  type="checkbox"  checked="checked" id="terms" value="agree">
+                <span class="box"></span>
+                 I agree to the&nbsp;<a href="#" class="label-a">Terms</a>&nbsp;and&nbsp;<a href="#" class="label-a">Privacy Policy</a>
+                   </label>
+                    
+                          
              </section>
             </form>
         </div>
@@ -70,14 +80,15 @@
   
         <label for="pswrd"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="pswrd" class="l-info" required>
-  
         <button type="submit" class="loginBtn">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
+        <label class="mainbox" class="label3">
+          <input type="checkbox" checked="checked" name="remember">
+          <span class="box"></span>
+           Remember me
         </label>
       </div>
   
-      <div class="logincontainer" id="footer" style="background-color:#f1f1f1">
+      <div class="logincontainer" id="footer" style="background-color:white">
         <button type="button" onclick="document.getElementById('loginId').style.display='none'" class="cancelbtn">Cancel</button>
         <span class="pswrd">Forgot <a href="#">password?</a></span>
       </div>
